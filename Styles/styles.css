@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto-i;
+    src: url(../fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 0px;
+}
+
+header, footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+header h4 {
+    font-size: 24px;
+}
+
+.Sign-up {
+    background-color: #1F2937;
+    min-height: 40vh;
+    padding: 15px;
+}
+
+.Sign-up, .Sign-up_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign-up_block {
+    justify-content: space-between;
+    color: white;
+}
+
+.Sign-up_block h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Sign-up_block h2, .Sign-up_block p {
+    margin: 0px;
+}
+
+.Sign-up_block img {
+    height: 200px;
+    width: 350px;
+}
+
+.Sign-up_block button {
+    height: 40px;
+    width: 135px;
+    background-color: #3882F6;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
+    color: white;
+}
+
+.Left_SU {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-right: 50px;
+    gap: 20px;
+}
+
+li img {
+    width: 125px;
+    height: 125px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+li  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+header ul {
+    gap: 0px;
+}
+
+h2  {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Imgs {
+    text-align: center;
+    padding: 20px;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+blockquote p{
+    width: 50vw;
+    font-size: 36px;
+    font-family: Roboto-i;
+    font-style: italic;
+    font-weight: 100;
+}
+
+blockquote div {
+    text-align: end;
+    font-weight: 600;
+}
+
+.Sec-sign {
+    color: white;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SSW {
+    min-height: 100px;
+    width: 50vw;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SSW button {
+    height:40%;
+    width: 15%;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.SSL h6, .SSL p {
+    margin: 0px;
+}
+
+.SSL h6 {
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(228,228,288,0.5);
+}
+
+a:active {
+    color: rgb(228,228,288,0.5);
+}
+
+footer {
+    
+}
